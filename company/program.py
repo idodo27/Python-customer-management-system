@@ -32,7 +32,7 @@ package_stringVars = {"speed": StringVar(), "start_date": StringVar(), "monthly_
 """Database connection details : """
 
 conn = pyodbc.connect('Driver={SQL SERVER};'
-                      'Server=DOD\SQLEXPRESS;'
+                      'Server=YOUR_PATH_TO_SQL_EXPRESS;'
                       'Database=Communications_LTD;'
                       'Trusted_Connection=yes;'
                       'Encrypt=yes;'
